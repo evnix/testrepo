@@ -33,10 +33,12 @@
 Amount of Time Spent: 2 hours* (1 hour for the planning & prototype and the rest for fixing bugs and documentation.)
 
 
-How it all works:
+**How it all works:**
 
 The text is intitially iterated character by character.
+
 A space/new_line/tab is used for separating words.
+
 Slash(/) is also used as a separator as we can have words: His/Her, Male/Female etc.
 
 But when separating using a slash(/), we have to take care of exceptions such as "i/o", "r/w", "b/w" etc.
@@ -46,8 +48,9 @@ Words are lower cased to avoid duplicates
 The special characters :\;~`)([]{}!?.,"'* will be discarded.
 
  **Exceptions:**
- The words containing dot(.) such as e.g. and i.e. mr. etc, will not be discarded.
- The words such as let's , John's etc, where a single qoute is used will not be discarded.
+ 
+	 The words containing dot(.) such as e.g. and i.e. mr. etc, will not be discarded.
+	 The words such as let's , John's etc, where a single qoute is used will not be discarded.
  
 **Limitations:**
  
